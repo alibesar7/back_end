@@ -51,6 +51,6 @@ mongoose.connect(process.env.CONNECTION_STRING)
 })
 // start lestining to the server
 
-app.listen(3000,()=>{
+app.listen(3005,()=>{
     console.log("started successfully");
 })
